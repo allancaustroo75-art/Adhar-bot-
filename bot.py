@@ -2251,7 +2251,7 @@ if __name__ == "__main__":
     WEBHOOK_URL = os.environ.get('RENDER_EXTERNAL_URL', '').rstrip('/')
     if not WEBHOOK_URL:
         # Auto-detect from service name
-        WEBHOOK_URL = "https://aadhar-download-bot.onrender.com"
+        WEBHOOK_URL = "https://adhar-bot-production.up.railway.app"
 
     try:
         bot.remove_webhook()
